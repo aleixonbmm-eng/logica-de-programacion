@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Pseudocódigo:
+    // Y = 4
+    // X = 4
+    // Y = ++X
+    // X = X++ + ++Y
+
+    int Y = 4;
+    int X = 4;
+    Y = ++X;
+    X = X++ + ++Y;
+    cout << "X = " << X << ", Y = " << Y << endl;
+    return 0;
+}
